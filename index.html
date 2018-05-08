@@ -1,51 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Website Project</title>
+    <title>Plastic Pollution</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <style>
-    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    .row.content {height: 1500px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      background: linear-gradient(navy,blue,aqua);
-      height: 100%;
-      color:white;
-    }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-    
-      }
-      .row.content {height: auto;} 
-    }
-  </style>
-  <script>
-$(document).ready(function(){
-    $(".btn2").click(function(){
-        $("p").fadeIn();
-    });
-});
-</script>
-  </head>
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
   <body>
   <div class="container-fluid">
   <div class="row content">
@@ -58,8 +28,7 @@ $(document).ready(function(){
         <li><a href="#section5">Photos</a></li>
       </ul><br>
     </div>
-
-    <div class="col-sm-9">
+  <div class="col-sm-9">
       <h1>Guide To Swimming</h1>
       <hr>
       <h2>Benefits of Sports</h2><br>
@@ -70,15 +39,20 @@ $(document).ready(function(){
       <p>Swimming is an individual or team sport that requires the use of one's arms and legs to move the body through water. Competitive swimming is one of the most popular Olympic sports, with varied distance events in butterfly, backstroke, breaststroke, freestyle, and individual medley.</p>
       <hr>
       <ul>
-  <li>Breaststroke: Breaststroke is a swimming stroke that is swum on the chest while the torso does not rotate. It is the most popular recreational style due to the swimmer's head being out of the water a large portion of the time, and that it can be swum comfortably at slow speeds only if not during practice or competitions.
+  <li><strong>Breaststroke:</strong> Breaststroke is a swimming stroke that is swum on the chest while the torso does not rotate. It is the most popular recreational style due to the swimmer's head being out of the water a large portion of the time, and that it can be swum comfortably at slow speeds only if not during practice or competitions.
 </li>
-  <li>Butterfly: The butterfly is a swimming stroke that is swum on the chest, with both arms moving symmetrically while forming  the butterfly kick. Butterfly is the newest swimming style swum in competition, first swum in 1933 and originating out of breaststroke.
+  <li><strong>Butterfly:</strong> The butterfly is a swimming stroke that is swum on the chest, with both arms moving symmetrically while forming  the butterfly kick. Butterfly is the newest swimming style swum in competition, first swum in 1933 and originating out of breaststroke.
 </li>
-  <li>Backstroke: The backstroke is the swimming stroke that is swum on the back. Backstroke is one of the four swimming styles used in competitive events regulated by FINA, and the only one of these styles swum on the back. This swimming style has the advantage of easy breathing, but the disadvantage of swimmers not being able to see where they are going.
+  <li><strong>Backstroke:</strong> The backstroke is the swimming stroke that is swum on the back. Backstroke is one of the four swimming styles used in competitive events regulated by FINA, and the only one of these styles swum on the back. This swimming style has the advantage of easy breathing, but the disadvantage of swimmers not being able to see where they are going.
 </li>
-  <li>Freestyle:</li>
+  <li><strong>Freestyle:</strong></li>
 </ul>  
-<button class="btn2">Position</button>
+<div class="col-sm-4 set">
+        <div id="overlay">
+          <p class="firstImage">Approximately 100,000 marine creatures die from plastic entanglement every year. </p>
+        </div>
+        <img src="img/download-6.jpg" class="img-responsive">
+    </div>
       <hr>
       <div id="Carousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -87,32 +61,27 @@ $(document).ready(function(){
         <li data-target="#Carousel" data-slide="2"></li>
         <li data-target="#Carousel" data-slide="3"></li>
         <li data-target="#Carousel" data-slide="4"></li>
-        <li data-target="#Carousel" data-slide="5"></li>
       </ol>
 
       <div class="carousel-inner">
         <div class="item active">
-          <img src="img/balloon-1.jpg" alt="Balloon">
+          <img src="img/breaststroke-3.jpg" alt="Breaststroke">
         </div>
 
         <div class="item">
-          <img src="img/balloon-2.jpg" alt="Balloon">
+          <img src="img/download-3.jpg" alt="Butterfly">
         </div>
 
         <div class="item">
-          <img src="img/balloon-3.jpg" alt="Balloon">
+          <img src="img/download-4.jpg" alt="Butterfly">
         </div>
 
         <div class="item">
-          <img src="img/balloon-4.jpg" alt="Balloon">
+          <img src="img/download-5.jpg" alt="Backstroke">
         </div>
 
         <div class="item">
-          <img src="img/balloon-5.jpg" alt="Balloon">
-        </div>
-
-        <div class="item">
-          <img src="img/balloon-6.jpg" alt="Balloon">
+          <img src="img/download-6.jpg" alt="Freestyle">
         </div>
       </div>
 
