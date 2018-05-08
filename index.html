@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Website Project</title>
+    <title>Plastic Pollution</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-$(document).ready(function(){
-    $(".btn2").click(function(){
-        $("p").fadeIn();
-    });
-});
-</script>
-  </head>
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
   <body>
   <div class="container-fluid">
   <div class="row content">
@@ -29,8 +28,7 @@ $(document).ready(function(){
         <li><a href="#section5">Photos</a></li>
       </ul><br>
     </div>
-
-    <div class="col-sm-9">
+  <div class="col-sm-9">
       <h1>Guide To Swimming</h1>
       <hr>
       <h2>Benefits of Sports</h2><br>
@@ -49,7 +47,12 @@ $(document).ready(function(){
 </li>
   <li><strong>Freestyle:</strong></li>
 </ul>  
-<button class="btn2">Position</button>
+<div class="col-sm-4 set">
+        <div id="overlay">
+          <p class="firstImage">Approximately 100,000 marine creatures die from plastic entanglement every year. </p>
+        </div>
+        <img src="img/download-6.jpg" class="img-responsive">
+    </div>
       <hr>
       <div id="Carousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -58,32 +61,27 @@ $(document).ready(function(){
         <li data-target="#Carousel" data-slide="2"></li>
         <li data-target="#Carousel" data-slide="3"></li>
         <li data-target="#Carousel" data-slide="4"></li>
-        <li data-target="#Carousel" data-slide="5"></li>
       </ol>
 
       <div class="carousel-inner">
         <div class="item active">
-          <img src="img/balloon-1.jpg" alt="Balloon">
+          <img src="img/breaststroke-3.jpg" alt="Breaststroke">
         </div>
 
         <div class="item">
-          <img src="img/balloon-2.jpg" alt="Balloon">
+          <img src="img/download-3.jpg" alt="Butterfly">
         </div>
 
         <div class="item">
-          <img src="img/balloon-3.jpg" alt="Balloon">
+          <img src="img/download-4.jpg" alt="Butterfly">
         </div>
 
         <div class="item">
-          <img src="img/balloon-4.jpg" alt="Balloon">
+          <img src="img/download-5.jpg" alt="Backstroke">
         </div>
 
         <div class="item">
-          <img src="img/balloon-5.jpg" alt="Balloon">
-        </div>
-
-        <div class="item">
-          <img src="img/balloon-6.jpg" alt="Balloon">
+          <img src="img/download-6.jpg" alt="Freestyle">
         </div>
       </div>
 
