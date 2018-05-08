@@ -1,4 +1,101 @@
 .sidenav {
-      background: linear-gradient(navy,blue,aqua);
+      background: linear-gradient(green,blue,aqua);
       height: 100%;
     }
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    .row.content {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 5px;
+}
+ 
+    .text-vertical-center {
+        text-align: center;
+        vertical-align: middle;
+        display: table-cell;
+        color: white;
+    }
+     h1{
+     color: white;
+     font-size: 100px;
+     font-family: cookie
+     
+    }
+    .pic{
+     display: table;
+        width: 100%;
+        height: 100%;
+        background:linear-gradient( rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.1)),
+        url('https://raw.githubusercontent.com/ahmadr9279/shabr/master/img/balloon-1.jpg') no-repeat center;
+        background-size: cover;
+    }
+    p{
+     font-size: 65px;
+     text-align: center;
+        vertical-align: middle;
+        display: table-cell;
+        color: white;
+        font-family: cookie;
+    }
+    .pic2{
+     display: table;
+        width: 100%;
+        height: 100%;
+        background:linear-gradient( rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.1)),
+        url('img/balloon-6.jpg') no-repeat center;
+        background-size: cover;
+        font-size: 15px;
+        color: white;
+        font-size: 35px;
+        font-family: "Robot";
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.yeah{
+ display: table;
+        width: 100%;
+        height: 100%;
+        background:linear-gradient( rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.1)),
+        url('https://raw.githubusercontent.com/ahmadr9279/shabr/master/img/balloon-2.jpg') no-repeat center;
+        background-size: cover;
+        font-size: 15px;
+        color: white;
+        font-size: 35px;
+        font-family: "Robot";
+}
+.thing{
+  height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 1px;
+    top: 3250px;
+    float: right;
+    border-color: magenta;
+     border: 5px solid red;
+}
+.thing2{
+  height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 3250px;
+    right: 1px;
+    float: right;
+    border: 5px solid red;
+}
+
+.contact{
+    background-color: coral
+}
+.carousel-inner{
+    background-color: purple;
+}
+.text-color{
+    color: magenta;
+}
