@@ -1,5 +1,5 @@
 .sidenav {
-      background: linear-gradient(navy,blue,aqua);
+      background: linear-gradient(green,blue,aqua);
       height: 100%;
     }
 .container {
@@ -11,6 +11,21 @@
   display: block;
   width: 100%;
   height: auto;
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+li{
+  font-size:10px;
 }
 
 .overlay {
@@ -30,16 +45,3 @@
   opacity: 1;
 }
 
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-li{
-  font-size:10px;
-}
