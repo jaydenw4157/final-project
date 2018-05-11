@@ -1,12 +1,24 @@
+<<<<<<< HEAD
  /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
     .row.content {height: 1500px}
     
     /* Set gray background color and 100% height */
     .sidenav {
       background: linear-gradient(navy,red,aqua);
+=======
+html,body{
+  background:linear-gradient(black,gray,white);
+  text-align:center;
+  color:lightgray;
+  font-family: 'Montserrat ', Cardo;
+}
+.sidenav {
+      background:linear-gradient(white,gray,black);
+>>>>>>> 6d866de0ebf2a4247318dc79b01c0fa860443f82
       height: 100%;
       color:white;
     }
+<<<<<<< HEAD
     
     /* Set black background color, white text and some padding */
     footer {
@@ -27,3 +39,96 @@
     h1{
         
     }
+=======
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 110%;
+  height: 90%;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+li{
+  font-size:13px;
+  color:white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10;
+  right: 10;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+@media(min-width:768px){
+  h1{
+   font-size:80px; 
+  }
+  h2{
+    font-size:50px;
+  }
+  p{
+    font-size:30px;
+  }
+  h4{
+    font-size:40px;
+  }
+}
+@media(min-width:992px){
+  h1{
+   font-size:80px; 
+  }
+  h2{
+    font-size:30px;
+  }
+  p{
+    font-size:10px;
+  }
+  li{
+    font-size:9px;
+  }
+  .image{
+    width: 120%;
+    height: 110%;
+  }
+}
+@media(min-width:1200px){
+  h1{
+    font-size:100px;
+  }
+  h2{
+    font-size:60px;
+  }
+  p{
+    font-size:50px;
+  }
+   li{
+    font-size:8px;
+  }
+  .image{
+    width: 130%;
+    height: 120%;
+  }
+}
+>>>>>>> 6d866de0ebf2a4247318dc79b01c0fa860443f82
