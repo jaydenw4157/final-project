@@ -1,24 +1,17 @@
-<<<<<<< HEAD
- /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    .row.content {height: 1500px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      background: linear-gradient(navy,red,aqua);
-=======
+
 html,body{
-  background:linear-gradient(black,gray,white);
+  background:linear-gradient(teal,gray,white);
   text-align:center;
   color:lightgray;
   font-family: 'Montserrat ', Cardo;
 }
 .sidenav {
       background:linear-gradient(white,gray,black);
->>>>>>> 6d866de0ebf2a4247318dc79b01c0fa860443f82
+
       height: 100%;
       color:white;
     }
-<<<<<<< HEAD
+
     
     /* Set black background color, white text and some padding */
     footer {
@@ -39,7 +32,7 @@ html,body{
     h1{
         
     }
-=======
+
 .container {
   position: relative;
   width: 50%;
@@ -124,11 +117,11 @@ li{
     font-size:50px;
   }
    li{
-    font-size:8px;
+    font-size:40px;
   }
   .image{
     width: 130%;
     height: 120%;
   }
 }
->>>>>>> 6d866de0ebf2a4247318dc79b01c0fa860443f82
+
